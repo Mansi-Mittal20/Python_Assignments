@@ -1,4 +1,4 @@
-"""1. Write a program to print "Hello Python" on the screen.
+1. Write a program to print "Hello Python" on the screen.
 print("hello python")
 
 2. Write a program to take your name as input and print "Hello <name>".
