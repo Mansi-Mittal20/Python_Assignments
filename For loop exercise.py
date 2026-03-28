@@ -1,54 +1,54 @@
+#PART 1-Basic For Loop Questions
+
 #Q1. Print Numbers 
 #Use a for loop to print numbers from 1 to 10.
+
 for i in range(1,11):
     print(i)
 
 #Q2. Print Even Numbers 
 #Print all even numbers between 1 and 20.
+
 for i in range(1,21):
     if i%2==0:
         print(i)
         
 #Q3. Find Sum 
 #print the sum of numbers from 1 to 10 using a for loop.
+
 sum=0
 for i in range(1,11):
     sum=sum+i
 print("Sum="sum)
     
-
 #Q4. Multiplication Table 
 #Take a number from the user and print its multiplication table up to 10.
+
 num=int(input("enter a no.: "))
 for i in range(1,11):
     mult=num*i
     print("multiplication=",mult)
 
-
-
 #Q5. Count Characters 
 # a string and count the total number of characters using a for loop. 
 
 string = input("Enter a string: ")
-
 count = 0
 for i in string:
     count=count+ 1
-
 print("Total number of characters:", count)
 
-OR(using another method)
+#OR(using another method)
 
 string = input("Enter a string: ")
-
 print(len(string))
-
 
 #PART 2 – Break Related Questions
 
 #Q6. Stop at 5 
 #Print numbers from 1 to 10.
 #Stop the loop when the number becomes 5.
+
 for i in range (1,11):
     if i==5:
         break
@@ -57,6 +57,7 @@ for i in range (1,11):
 #Q7. Search in List 
 #Search for number 25 in a list. 
 #If found, print "Found" and stop the loop.
+
 num=[40,70,90,47,25,60]
 for i in num:
     if i==25:
@@ -65,6 +66,7 @@ for i in num:
 
 #Q8. First Negative Number 
 #Given a list of numbers, print the first negative number and stop the loop. 
+
 num=[40,70,90,-47,25,-60]
 for i in num:
     if i<0:
@@ -76,6 +78,7 @@ for i in num:
 #Q9. Skip 5 
 #Print numbers from 1 to 10. 
 #Skip number 5.
+
 for i in range (1,11):
     if i==5:
         continue
@@ -84,6 +87,7 @@ for i in range (1,11):
 #Q10. Skip Even Numbers 
 #Print numbers from 1 to 20. 
 #Skip all even numbers.
+
 for i in range (1,21):
     if i%2==0:
         continue
@@ -113,6 +117,7 @@ print("Loop finished")
 #Q13. Skip Using Pass 
 #Loop from 1 to 10. 
 #If number is 6, just use pass
+
 for i in range (1,11):
     if i==6:
         pass
@@ -136,6 +141,7 @@ else:
  
 #Q15. Prime Number Check 
 #Take a number from the user and check whether it is prime using for-else.
+
 count=0
 num=int(input('enter a no. : '))
 for i in range(1,num+1):
@@ -177,6 +183,7 @@ for i in range(5,0,-1):
     for j in range (1,i+1):
         print("*",end="")
     print("")
+    
 """  
 Q18. Number Pattern 
 Print: 
@@ -214,14 +221,14 @@ Print:
  *******
 *********
 """
-
 for i in range(1,6):
     for k in range(5-i):
         print(" ",end="")
     for j in range(1,2*i):
         print("*",end="")
     print("")
- 
+    
+"""
 Q21. Inverted Pyramid 
 Print: 
 ********* 
@@ -229,7 +236,7 @@ Print:
   *****
    ***
     *
-
+"""
 for i in range(5,0,-1):
     for k in range(5-i):
         print(" ",end="")
@@ -241,8 +248,8 @@ for i in range(5,0,-1):
 Bonus Question
 Q22. Break in Pattern 
 Print a star pattern. 
-Stop printing when the row number reaches 4."""
-
+Stop printing when the row number reaches 4.
+"""
 for i in range(1, 11):
     if i == 4:
         continue
