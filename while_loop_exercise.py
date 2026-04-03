@@ -37,7 +37,7 @@ while i<=10:
    print(a*i)
    i+=1
    
-OR
+#OR
 
 i=5
 while i<=50:
