@@ -147,12 +147,3 @@ print(t[0])
 print(t[2])      
 print(t[2][1])
 print(t[3])
-
-
-
-
-
-
-
-
-    
