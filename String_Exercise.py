@@ -6,21 +6,19 @@
 
 st = "amankumar"
 count = 0
-
 for i in st:
     if i in "aeiouAEIOU":
         count += 1
-
+        
 print("Vowels:", count)
 
 #2. Reverse a string without using built-in functions.
 
 st = "MANSI"
 rev = ""
-
 for i in st:
     rev = i + rev
-
+    
 print(rev)
 
 #3. Check whether a string is a palindrome.
@@ -35,10 +33,8 @@ else:
 #4. Count uppercase and lowercase letters in a string.
 
 st = "ManSiMIttAL"
-
 upper = 0
 lower = 0
-
 for i in st:
     if i >= 'A' and i <= 'Z':
         upper += 1
@@ -52,7 +48,6 @@ print("Lowercase:", lower)
 
 st = "Hello Mansi "
 new = ""
-
 for i in st:
     if i == " ":
         new = new + "_"
@@ -68,7 +63,6 @@ print(new)
 
 st = "aabbc"
 done = ""
-
 for i in st:
     if i not in done:
         print(i, "->", st.count(i))
@@ -81,6 +75,7 @@ new=""
 for i in st:
     if i not in new:
         new=new+i
+        
 print(new)
     
 #8. Find the first non-repeating character in a string.
@@ -113,7 +108,6 @@ else:
 
 st = "hello mansi"
 new = ""
-
 for i in range(len(st)):
     if i == 0 or st[i-1] == " ":   #st[i-1] checks if previous character is space
         new = new + st[i].upper()
@@ -121,7 +115,6 @@ for i in range(len(st)):
         new = new + st[i]
 
 print(new)
-    
     
 #Tricky
     
@@ -151,8 +144,7 @@ while i<len(st)-1:
     i=i+1
 temp = temp+st[i]+str(count)
 print(temp)
-
-    
+   
 #13. Count words, characters, and digits in a string.
 
 st = "Aman123 Kumar"
@@ -201,4 +193,3 @@ st = "AMAN"
 for i in range(len(st)):        
     for j in range(i, len(st)):
         print(st[i:j+1])
- 
