@@ -12,7 +12,6 @@ s.add(40)
 s.add(70)
 print(s)
 
-
 #2. Find the union and intersection of two sets.
 
 s1={1,2,3,4,5}
@@ -49,7 +48,6 @@ l1 = [1,2,3,4]
 l2 = [3,4,5,6]
 s1 = set(l1)
 s2 = set(l2)
-
 print(s1 & s2)  # print(s1.intersection(s2))
 
 #7. Check whether one set is a subset of another.
@@ -86,19 +84,15 @@ s2 = s2 - common
 print("s1:", s1)
 print("s2:", s2)
 
-
 #Tricky
 
 #11. Find missing numbers from 1 to n using sets.
 
 li = [1,2,4,6]
 n = 6
-
 full = set(range(1, n+1))
 given = set(li)
-
 missing = full - given
-
 print(missing)
 
 #12. Check if two lists have any common elements.
@@ -115,7 +109,6 @@ else:
 
 s = {"raam", "mansi", "poonam"}
 new = set()
-
 for i in s:
     new.add(i.upper())
 
@@ -124,9 +117,7 @@ print(new)
 #14. Identify unique vowels in a given string using a set.
 
 st = "amankumar"
-
 vowels = set()
-
 for i in st:
     if i in "aeiou":
         vowels.add(i)
