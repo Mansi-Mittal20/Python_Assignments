@@ -1,4 +1,4 @@
-##Map_Filter_Reduce_Lambda_Exercise
+#Map_Filter_Reduce_Lambda_Exercise
 
 #Beginner Level
 
