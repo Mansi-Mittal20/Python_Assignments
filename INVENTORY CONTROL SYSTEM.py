@@ -3,7 +3,7 @@ INVENTORY CONTROL SYSTEM
 
 Customer ( CID , Cname , Caddress , CMobile )
 
-Product  ( PID , Pname , Price , Pdesc , StockQty , MinStock )
+Product  ( PID , Pname , Price , Pdesc , StockQty , Minitock )
 
 Order    ( OID , CID , PID , OrderQty , TotalPrice )
 
